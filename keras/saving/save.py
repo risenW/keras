@@ -120,7 +120,7 @@ def save_model(model,
   """
   # pylint: enable=line-too-long
   from keras.engine import sequential  # pylint: disable=g-import-not-at-top
-
+  print("TESTING DEV SOURCE Dev")
   default_format = 'tf' if tf.__internal__.tf2.enabled() else 'h5'
   save_format = save_format or default_format
 

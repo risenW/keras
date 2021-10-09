@@ -16,3 +16,8 @@ bazel-bin
 bazel-keras
 bazel-out
 bazel-testlogs
+
+keras-dev
+dist
+hugging_keras.egg*
+build
