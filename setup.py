@@ -7,9 +7,19 @@ with open('requirements.txt') as f:
   requirements = f.readlines()
 
 setup(
-      name='huggingkera',
+      name='keras',
       version='0.0.1',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      packages = find_packages()
+      packages = find_packages(),
+      install_requires=[
+       "pandas",
+        "pydot",
+        "scipy",
+        "tensorflow",
+        "portpicker",
+        "pyyaml",
+        "Pillow",
+        "numpy",
+        ],
       )
